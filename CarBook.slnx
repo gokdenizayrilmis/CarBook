@@ -1,3 +1,12 @@
 <Solution>
-  <Project Path="CarBook/CarBook.csproj" />
+  <Folder Name="/Core/">
+    <Project Path="CarBook.Application/CarBook.Application.csproj" />
+    <Project Path="CarBook.Domain/CarBook.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="CarBook.Persistence/CarBook.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="CarBook.WebApi/CarBook.WebApi.csproj" />
+  </Folder>
 </Solution>
